@@ -60,6 +60,11 @@ export default function Doacao() {
             />
           </div>
           <p className="text-gray-600">Querido convidado, optamos por não ter uma lista de presentes, mas se você quiser nos presentear com uma contribuição, ficaremos muito felizes!</p>
+
+          <div className="mt-8 text-center text-sm text-gray-500">
+            <p>Clique em &quot;Link Pix&quot; para copiar o código do valor escolhido</p>
+            <p className="mt-2">Cole o código no seu aplicativo bancário para realizar a transferência</p>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
@@ -118,11 +123,6 @@ export default function Doacao() {
               Link Pix
             </button>
           </div>
-        </div>
-
-        <div className="mt-8 text-center text-sm text-gray-500">
-          <p>Clique em &quot;Link Pix&quot; para copiar o código do valor escolhido</p>
-          <p className="mt-2">Cole o código no seu aplicativo bancário para realizar a transferência</p>
         </div>
       </div>
     </div>
