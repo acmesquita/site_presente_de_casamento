@@ -6,10 +6,6 @@ import { useRouter } from "next/navigation";
 export default function Doacao() {
   const router = useRouter();
 
-  const handlePixClick = () => {
-    router.push('/agradecimento');
-  };
-
   const handleCopyPix30 = async () => {
     const pixLink = "00020126580014BR.GOV.BCB.PIX0136c1ce17cc-6a46-454a-b0f2-99bcf644be6c520400005303986540530.005802BR5925Ana Catharina Norberta Me6009SAO PAULO62140510QnbyWGLnwT6304F238";
     try {
@@ -125,7 +121,7 @@ export default function Doacao() {
         </div>
 
         <div className="mt-8 text-center text-sm text-gray-500">
-          <p>Clique em "Link Pix" para copiar o código do valor escolhido</p>
+          <p>Clique em &quot;Link Pix&quot; para copiar o código do valor escolhido</p>
           <p className="mt-2">Cole o código no seu aplicativo bancário para realizar a transferência</p>
         </div>
       </div>
