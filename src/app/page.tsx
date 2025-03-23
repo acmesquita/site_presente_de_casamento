@@ -72,7 +72,33 @@ export default function Doacao() {
           <div className="bg-white/90 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col">
             <div className="text-center flex-1">
               <h3 className="text-xl font-semibold text-gray-900">R$ 30,00</h3>
-              <p className="text-gray-600 mt-2">Presente Simbólico</p>
+              <p className="text-gray-600 mt-2">Um grão gigante de café</p>
+            </div>
+            <button 
+              onClick={handleCopyPix30}
+              className="mt-4 w-full bg-[#984a46] text-white py-2 px-4 rounded-full hover:bg-[#7a3a36] transition-colors"
+            >
+              Link Pix
+            </button>
+          </div>
+
+          <div className="bg-white/90 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col">
+            <div className="text-center flex-1">
+              <h3 className="text-xl font-semibold text-gray-900">R$ 30,00</h3>
+              <p className="text-gray-600 mt-2">10 pacotes de cuscuz de arroz</p>
+            </div>
+            <button 
+              onClick={handleCopyPix30}
+              className="mt-4 w-full bg-[#984a46] text-white py-2 px-4 rounded-full hover:bg-[#7a3a36] transition-colors"
+            >
+              Link Pix
+            </button>
+          </div>
+
+          <div className="bg-white/90 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col">
+            <div className="text-center flex-1">
+              <h3 className="text-xl font-semibold text-gray-900">R$ 30,00</h3>
+              <p className="text-gray-600 mt-2">Condicionador para o cabelo do noivo</p>
             </div>
             <button 
               onClick={handleCopyPix30}
@@ -86,7 +112,20 @@ export default function Doacao() {
           <div className="bg-white/90 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col">
             <div className="text-center flex-1">
               <h3 className="text-xl font-semibold text-gray-900">R$ 50,00</h3>
-              <p className="text-gray-600 mt-2">Presente Médio</p>
+              <p className="text-gray-600 mt-2">Um litro de chopp para a noiva</p>
+            </div>
+            <button 
+              onClick={handleCopyPix50}
+              className="mt-4 w-full bg-[#984a46] text-white py-2 px-4 rounded-full hover:bg-[#7a3a36] transition-colors"
+            >
+              Link Pix
+            </button>
+          </div>
+
+          <div className="bg-white/90 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col">
+            <div className="text-center flex-1">
+              <h3 className="text-xl font-semibold text-gray-900">R$ 50,00</h3>
+              <p className="text-gray-600 mt-2">Noite de jogos</p>
             </div>
             <button 
               onClick={handleCopyPix50}
@@ -100,7 +139,20 @@ export default function Doacao() {
           <div className="bg-white/90 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col">
             <div className="text-center flex-1">
               <h3 className="text-xl font-semibold text-gray-900">R$ 100,00</h3>
-              <p className="text-gray-600 mt-2">Presente Grande</p>
+              <p className="text-gray-600 mt-2">Ajuda com os pedágios da viagem</p>
+            </div>
+            <button 
+              onClick={handleCopyPix100}
+              className="mt-4 w-full bg-[#984a46] text-white py-2 px-4 rounded-full hover:bg-[#7a3a36] transition-colors"
+            >
+              Link Pix
+            </button>
+          </div>
+
+          <div className="bg-white/90 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col">
+            <div className="text-center flex-1">
+              <h3 className="text-xl font-semibold text-gray-900">R$ 100,00</h3>
+              <p className="text-gray-600 mt-2">Inscrição da São Silvestre</p>
             </div>
             <button 
               onClick={handleCopyPix100}
@@ -114,7 +166,7 @@ export default function Doacao() {
           <div className="bg-white/90 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col">
             <div className="text-center flex-1">
               <h3 className="text-xl font-semibold text-gray-900">Valor Livre</h3>
-              <p className="text-gray-600 mt-2">Escolha o valor</p>
+              <p className="text-gray-600 mt-2">Capa da inviabilidade</p>
             </div>
             <button 
               onClick={handleCopyPixLivre}
