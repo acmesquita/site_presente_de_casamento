@@ -135,6 +135,20 @@ export default function Doacao() {
             </button>
           </div>
 
+          
+          <div className="bg-white/90 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col">
+            <div className="text-center flex-1">
+              <h3 className="text-xl font-semibold text-gray-900">R$ 50,00</h3>
+              <p className="text-gray-600 mt-2">1 ano de Youtube sem propagandas</p>
+            </div>
+            <button 
+              onClick={handleCopyPix50}
+              className="mt-4 w-full bg-[#984a46] text-white py-2 px-4 rounded-full hover:bg-[#7a3a36] transition-colors"
+            >
+              Link Pix
+            </button>
+          </div>
+
           {/* Opção 3 */}
           <div className="bg-white/90 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col">
             <div className="text-center flex-1">
@@ -162,11 +176,50 @@ export default function Doacao() {
             </button>
           </div>
 
+          <div className="bg-white/90 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col">
+            <div className="text-center flex-1">
+              <h3 className="text-xl font-semibold text-gray-900">R$ 100,00</h3>
+              <p className="text-gray-600 mt-2">1 ano de caldo de cana e pastel</p>
+            </div>
+            <button 
+              onClick={handleCopyPix100}
+              className="mt-4 w-full bg-[#984a46] text-white py-2 px-4 rounded-full hover:bg-[#7a3a36] transition-colors"
+            >
+              Link Pix
+            </button>
+          </div>
+
           {/* Opção 4 - Valor Livre */}
           <div className="bg-white/90 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col">
             <div className="text-center flex-1">
               <h3 className="text-xl font-semibold text-gray-900">Valor Livre</h3>
               <p className="text-gray-600 mt-2">Capa da inviabilidade</p>
+            </div>
+            <button 
+              onClick={handleCopyPixLivre}
+              className="mt-4 w-full bg-[#984a46] text-white py-2 px-4 rounded-full hover:bg-[#7a3a36] transition-colors"
+            >
+              Link Pix
+            </button>
+          </div>
+
+          <div className="bg-white/90 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col">
+            <div className="text-center flex-1">
+              <h3 className="text-xl font-semibold text-gray-900">Valor Livre</h3>
+              <p className="text-gray-600 mt-2">Pix misterioso</p>
+            </div>
+            <button 
+              onClick={handleCopyPixLivre}
+              className="mt-4 w-full bg-[#984a46] text-white py-2 px-4 rounded-full hover:bg-[#7a3a36] transition-colors"
+            >
+              Link Pix
+            </button>
+          </div>
+
+          <div className="bg-white/90 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow flex flex-col">
+            <div className="text-center flex-1">
+              <h3 className="text-xl font-semibold text-gray-900">Valor Livre</h3>
+              <p className="text-gray-600 mt-2">Detive para as meias que a Geleia pegou</p>
             </div>
             <button 
               onClick={handleCopyPixLivre}
