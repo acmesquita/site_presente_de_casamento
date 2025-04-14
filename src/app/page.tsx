@@ -7,7 +7,7 @@ export default function Doacao() {
   const router = useRouter();
 
   const handleCopyPix30 = async () => {
-    const pixLink = "00020126580014BR.GOV.BCB.PIX0136c1ce17cc-6a46-454a-b0f2-99bcf644be6c520400005303986540530.005802BR5925Ana Catharina Norberta Me6009SAO PAULO62140510QnbyWGLnwT6304F238";
+    const pixLink = "00020126580014BR.GOV.BCB.PIX0136c1ce17cc-6a46-454a-b0f2-99bcf644be6c520400005303986540530.005802BR5925Ana Catharina Norberta Me6009SAO PAULO62140510LIrbXiQkdT63044230";
     try {
       await navigator.clipboard.writeText(pixLink);
       router.push('/agradecimento');
@@ -17,7 +17,7 @@ export default function Doacao() {
   };
 
   const handleCopyPix50 = async () => {
-    const pixLink = "00020126580014BR.GOV.BCB.PIX0136c1ce17cc-6a46-454a-b0f2-99bcf644be6c520400005303986540550.005802BR5925Ana Catharina Norberta Me6009SAO PAULO621405101iw4HfoVCh63048B0F";
+    const pixLink = "00020126580014BR.GOV.BCB.PIX0136c1ce17cc-6a46-454a-b0f2-99bcf644be6c520400005303986540550.005802BR5925Ana Catharina Norberta Me6009SAO PAULO62140510ZY9By3rqKF630488D2";
     try {
       await navigator.clipboard.writeText(pixLink);
       router.push('/agradecimento');
@@ -27,7 +27,7 @@ export default function Doacao() {
   };
 
   const handleCopyPix100 = async () => {
-    const pixLink = "00020126580014BR.GOV.BCB.PIX0136c1ce17cc-6a46-454a-b0f2-99bcf644be6c5204000053039865406100.005802BR5925Ana Catharina Norberta Me6009SAO PAULO62140510oT6pBlbPXt6304B0F3";
+    const pixLink = "00020126580014BR.GOV.BCB.PIX0136c1ce17cc-6a46-454a-b0f2-99bcf644be6c5204000053039865406100.005802BR5925Ana Catharina Norberta Me6009SAO PAULO62140510EkkXRZztfv63046018";
     try {
       await navigator.clipboard.writeText(pixLink);
       router.push('/agradecimento');

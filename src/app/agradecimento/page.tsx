@@ -1,6 +1,17 @@
+'use client';
+
 import Image from "next/image";
 
 export default function Agradecimento() {
+  const handleCopyCahvePix = async () => {
+    const pixLink = "c1ce17cc-6a46-454a-b0f2-99bcf644be6c";
+    try {
+      await navigator.clipboard.writeText(pixLink);
+    } catch (err) {
+      console.error('Erro ao copiar o link:', err);
+    }
+  };
+
   return (
     <div className="min-h-screen p-8 flex flex-col items-center justify-center bg-white">
       <div className="max-w-2xl w-full space-y-8 text-center">
@@ -28,6 +39,16 @@ export default function Agradecimento() {
           <p className="text-lg font-medium text-gray-500 mb-10 leading-relaxed subpixel-antialiased text-justify">
             Esperamos você no dia <b>27 de abril de 2025</b> para celebrarmos juntos este momento tão especial!
           </p>
+          <p className="text-lg font-medium text-gray-500 mb-10 leading-relaxed subpixel-antialiased text-justify">
+            Caso tenha alguma problema com a transferência, a chave PIX é:
+            <br/><b>c1ce17cc-6a46-454a-b0f2-99bcf644be6c</b>
+          </p>
+          <button 
+              onClick={handleCopyCahvePix}
+              className="mt-4 w-full bg-white text-[#984a46] border-2 border-[#984a46] py-2 px-4 rounded-full hover:bg-[#984a46] hover:text-white transition-colors"
+            >
+              Copiar Chave PIX
+            </button>
         </div>
       </div>
     </div>
